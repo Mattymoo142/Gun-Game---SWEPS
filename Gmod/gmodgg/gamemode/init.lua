@@ -82,7 +82,7 @@ if (attacker:GetNWFloat('level',1) == #WeaponList) then
                 v:StripWeapons()
                 v:SetNWFloat('level', 1)
                 v:Spawn()
-                return
+                
         end
         end
 		end
