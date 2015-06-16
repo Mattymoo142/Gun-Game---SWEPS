@@ -18,7 +18,7 @@ WepList ={
 --//LIST 1\\--
 'tfa_deagle',
 'tfa_luger',
-'NAME ANYTHING' --//You can name the last one whatever you want, just make sure the weapon you want to be the last, is the second to last one.
+'NAME ANYTHING' --//You can name the last one whatever you want, just make sure the weapon you want to be the last, is the second to last one
 },
 {
 --//LIST 2\\--
