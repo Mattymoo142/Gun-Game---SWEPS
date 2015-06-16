@@ -99,5 +99,5 @@ self.BaseClass:PlayerSpawn( p2 )
 p2:SetGravity( 1, 900 )
 p2:SetMaxHealth( 100, true )
 p2:SetWalkSpeed( 165 )
-p2:SetRunSpeed( 355 )
+p2:SetRunSpeed( 355)
 end
