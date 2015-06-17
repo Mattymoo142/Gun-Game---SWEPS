@@ -86,6 +86,12 @@ PrintMessage(HUD_PRINTTALK, "=================================================")
  
 --//Player spawn - Gives correct weapon on spawn
 function GM:PlayerSpawn( p2 )
+p2:GiveAmmo(999, "AR2")
+p2:GiveAmmo(999, "Pistol")
+p2:GiveAmmo(999, "SMG1")
+p2:GiveAmmo(999, "357")
+p2:GiveAmmo(999, "Buckshot")
+p2:GiveAmmo(999, "SniperPenetratedRound")
 level = p2:GetNWFloat('level', 1) --//Defines Level
 p2:SetNWFloat('level', level) --//Sets level
 p2:Give(WeaponList[p2:GetNWFloat('level', 1)])
