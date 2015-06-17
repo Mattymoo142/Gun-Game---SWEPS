@@ -79,6 +79,8 @@ PrintMessage(HUD_PRINTTALK, "=================================================")
                 v:RemoveAllAmmo()
                 v:SetNWFloat('level', 1)
                 v:Spawn()
+victim:ShouldDropWeapon(false)
+attacker:ShouldDropWeapon(false)
         end
         end
                 end
