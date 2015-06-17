@@ -75,14 +75,15 @@ end
 
 
 if (attacker:GetNWFloat('level',1) == #WeaponList) then
-                for k, v in pairs( player.GetAll() ) do		
-				PrintMessage(HUD_PRINTTALK, "=================================================")
+PrintMessage(HUD_PRINTTALK, "===========================================")
                 PrintMessage(HUD_PRINTTALK, attacker:Name() .. " Has won! ")
-                PrintMessage(HUD_PRINTTALK, "=================================================")
+                PrintMessage(HUD_PRINTTALK, "===========================================")
+                for k, v in pairs( player.GetAll() ) do		
+				
                 v:StripWeapons()
                 v:SetNWFloat('level', 1)
                 v:Spawn()
-                return
+                
         end
         end
 		end
@@ -98,5 +99,5 @@ self.BaseClass:PlayerSpawn( p2 )
 p2:SetGravity( 1, 900 )
 p2:SetMaxHealth( 100, true )
 p2:SetWalkSpeed( 165 )
-p2:SetRunSpeed( 355 )
+p2:SetRunSpeed( 355)
 end
