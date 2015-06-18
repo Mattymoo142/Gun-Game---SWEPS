@@ -59,7 +59,7 @@ PrintMessage(HUD_PRINTTALK, "=================================================")
 PrintMessage(HUD_PRINTTALK, attacker:Name() .. " Committed suicide!")
 PrintMessage(HUD_PRINTTALK, "=================================================")
 attacker:StripWeapon(WeaponList[attacker:GetNWFloat('level', 1)])
-else --//If above returns false, attacker gets kill
+else if (attacker == attacker) then --//If above returns false, attacker gets kill
 PrintMessage(HUD_PRINTTALK, "=================================================")
 PrintMessage(HUD_PRINTTALK, attacker:Name() .. " Killed " .. victim:Name() .. "!")
 PrintMessage(HUD_PRINTTALK, "=================================================")
