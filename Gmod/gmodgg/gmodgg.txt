@@ -1,7 +1,7 @@
 "gmodgg"
 {
 	"base"		"sandbox"
-    "title"  "Gun Game - SWEPS"
+    "title"  "Gmod Gun Master"
     "version"   "1.0.0"
     "menusystem"	"1"
 
